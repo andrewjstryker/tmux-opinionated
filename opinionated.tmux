@@ -74,7 +74,9 @@ sessions () {
 }
 
 windows () {
-  tmux bind-key c new-window -c "'#{pane_current_path}' ; command-prompt -I '#{window_name}' 'rename-window %%'"
+  tmux bind-key c new-window -c '#{pane_current_path}'
+  # TODO: ask for a window name
+  # tmux bind-key c new-window -c "'#{pane_current_path}' ; command-prompt -I '#{window_name}' 'rename-window %%'"
   tmux bind-key r command-prompt -I "#{window_name}" "rename-window '%%'"
   tmux bind-key -r C-Tab last-window
   tmux bind-key -r Tab last-pane
