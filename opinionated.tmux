@@ -1,3 +1,6 @@
+#! /usr/bin/env bash
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+#
 # Opinioated
 #
 # A collection of tmux bindinss packaged for the tmux plugin manager.
