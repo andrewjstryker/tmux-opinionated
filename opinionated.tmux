@@ -33,7 +33,7 @@ tmuxconf () {
 main () {
   tmuxconffile="$(tmuxconf)"
   tmux set-option -g "@tmuxconf" "$tmuxconffile"
-  tmux source-file "${CURRENT_DIR}/opionated.conf"
+  tmux source-file "${CURRENT_DIR}/opinionated.conf"
 }
 
 main
