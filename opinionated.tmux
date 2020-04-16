@@ -1,9 +1,8 @@
 #! /usr/bin/env bash
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+# opinionated.tmux
 #
-# Opinioated
-#
-# A collection of tmux bindinss packaged for the tmux plugin manager.
+# Configure Tmux to have consistent, useful, and easy to remember bindings.
 #
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
 
